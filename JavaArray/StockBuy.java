@@ -1,7 +1,7 @@
 import java.util.*;
 public class StockBuy {
     public static int buyAndSellStocks(int prices[]){
-        int buyPrice = Integer.MAX_VALUE;
+        int buyPrice = prices[0];
         int maxProfit = 0;
 
         for(int i = 0; i<prices.length; i++){

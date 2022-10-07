@@ -7,7 +7,7 @@ public class SubArray {
             for(int j=i;j<num.length;j++){
                 int end =j;
                 for(int k =start;k<=end;k++){
-                    System.out.print(num[k]);
+                    System.out.print(num[k]+" ");
 
                 }
                 count++;
