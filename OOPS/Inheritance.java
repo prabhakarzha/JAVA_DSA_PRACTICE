@@ -5,7 +5,7 @@ public class Inheritance {
         shark.eat();
     }
 }
-// Parent/Base Class
+// Parent/Base Class 
 class Animal{
     String color;  //properties
     void eat(){    // function
