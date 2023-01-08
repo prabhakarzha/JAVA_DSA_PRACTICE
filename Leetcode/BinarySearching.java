@@ -1,3 +1,7 @@
+
+
+//  First and Last occurrence of an Element leetcode
+
 import java.util.*;
 public class BinarySearching {
     public static int []find(int arr[], int target){
