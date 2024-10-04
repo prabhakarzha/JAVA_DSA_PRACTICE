@@ -7,12 +7,10 @@ public class LinearSearch {
             }
         }
         return -1;
-
-
-    }
+}
     public static void main(String args[]){
         int numbers[]={2,4,6,8,10,12,14,16};
-        int key = 10;
+        int key = 11;
         int index = linearSearching(numbers,key);
         if(index == -1){
             System.out.println("Not found");
